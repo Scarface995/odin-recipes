@@ -1,3 +1,27 @@
 body {
     background-color: aliceblue;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ingredients-list {
+    width: 400px;
+    list-style-position: inside;
+    text-align: left;
+    background-color: aliceblue;
+    
+}
+
+.ingredients-list ul{
+    list-style-position: inside;
+}
+
+.directions {
+    width: 600px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 38px;
 }
