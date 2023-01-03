@@ -4,24 +4,50 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.image-recipe {
+    margin-bottom: 2px;
+    float: left;
+}
+.image-recipe img {
+    margin-bottom: 2px;
+    float: left;
+    max-width: 500px;
+    max-height: 600px;
+}
 
 .ingredients-list {
     width: 400px;
     list-style-position: inside;
     text-align: left;
     background-color: aliceblue;
-    
-}
-
-.ingredients-list ul{
     list-style-position: inside;
+    float: left;
+    margin-top: 80px;
+    margin-left: 10px;
 }
 
 .directions {
     width: 600px;
     text-align: left;
+    float: left;
+    margin-top: 80px;
+    padding-right: 0px;
+    
 }
 
 h1 {
     font-size: 38px;
+}
+
+.image-cover {
+    width: 600px;
+}
+
+a {
+    margin-top: 200px;
+    border-color: red;
+}
+
+.home-link {
+    margin-top: 0px;
 }
